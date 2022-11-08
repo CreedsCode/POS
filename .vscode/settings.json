@@ -1,0 +1,49 @@
+{
+  "hidefiles.configurationType": "local",
+  "hidefiles.globalConfig": {
+    "profiles": [
+      {
+        "name": "Default",
+        "detail": "",
+        "description": "Test",
+        "hidden": [
+          ".vscode/",
+          ".prettierrc",
+          "pnpm-lock.yaml",
+          "LICENSE",
+          ".gitignore",
+          ".env.example",
+          ".editorconfig",
+          "node_modules/",
+          "dist/",
+          ".parcel-cache/"
+        ]
+      },
+      {
+        "name": "Strict",
+        "detail": "Hide everything not immediately required",
+        "hidden": [
+          "$Default"
+        ]
+      }
+    ]
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    ".vscode/": true,
+    ".prettierrc": true,
+    "pnpm-lock.yaml": true,
+    "LICENSE": true,
+    ".gitignore": true,
+    ".env.example": true,
+    ".editorconfig": true,
+    "node_modules/": true,
+    "dist/": true,
+    ".parcel-cache/": true
+  },
+  "hidefiles.selectedProfile": "Default"
+}
