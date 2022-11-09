@@ -44,7 +44,7 @@ export const Hero = () => {
     return (
         <HeroStyles>
             <HeroTitle>Proof of Silo</HeroTitle>
-            <HeroParagraph>Be quick before there gone!</HeroParagraph>
+            <HeroParagraph>Be quick before they're gone!</HeroParagraph>
             <ButtonWrapper>
                 <CallToActionButton />
             </ButtonWrapper>
